@@ -5,10 +5,6 @@ Tests preprocessing correctness, detector initialization,
 FPS measurement, and tracking logic.
 """
 
-import sys
-import os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../src"))
-
 import cv2
 import numpy as np
 import pytest
